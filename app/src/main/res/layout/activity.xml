@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:cropToPadding="true"
+        android:translationX="48dp"
+        android:translationY="90dp"
+        mapbox:srcCompat="@mipmap/naurt_full_logo_foreground" />
+</fragment>

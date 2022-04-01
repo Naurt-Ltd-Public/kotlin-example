@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Naurt Kotlin Example</string>
+    <string name="title_activity_maps">Naurt Kotlin Example</string>
+    <string name="naurt_action_bar_switch">naurt_action_bar_switch</string>
+    <string name="enabled_title">Naurt \u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020 Enabled</string>
+    <string name="disabled_title">Naurt \u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020 Disabled</string>
+</resources>

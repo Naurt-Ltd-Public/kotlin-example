@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_menu"
+>
+    <item
+        android:id="@+id/naurt_action_bar_switch"
+        android:title="@string/naurt_action_bar_switch"
+        app:actionLayout="@layout/use_switch"
+        app:showAsAction="always"
+    />
+</menu>
