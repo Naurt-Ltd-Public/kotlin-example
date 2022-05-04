@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_screen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginStart="32dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginTop="32dp"
+    android:layout_marginEnd="32dp"
+    android:layout_marginRight="32dp"
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/backgroundStatusTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:text="@string/background_status" />
+
+    <RadioButton
+        android:id="@+id/hasPermissions"
+        style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#7C7C7C"
+        android:checked="true"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:linksClickable="false"
+        android:longClickable="false"
+        android:text="@string/has_permissions" />
+
+    <RadioButton
+        android:id="@+id/hasInternet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#7C7C7C"
+        android:checked="true"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:linksClickable="false"
+        android:longClickable="false"
+        android:text="@string/has_internet"
+        tools:ignore="DuplicateClickableBoundsCheck,TextContrastCheck" />
+
+    <RadioButton
+        android:id="@+id/hasLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#7C7C7C"
+        android:checked="true"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:linksClickable="false"
+        android:longClickable="false"
+        android:text="@string/location"
+        tools:ignore="TextContrastCheck" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:id="@+id/appStatusTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:text="@string/app_status" />
+
+    <RadioButton
+        android:id="@+id/isInitialised"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#7C7C7C"
+        android:checked="true"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:linksClickable="false"
+        android:longClickable="false"
+        android:text="@string/is_initialised"
+        tools:ignore="TextContrastCheck" />
+
+    <RadioButton
+        android:id="@+id/isValidated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#7C7C7C"
+        android:checked="true"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:linksClickable="false"
+        android:longClickable="false"
+        android:text="@string/is_validated"
+        tools:ignore="TextContrastCheck" />
+
+    <RadioButton
+        android:id="@+id/isRunning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#7C7C7C"
+        android:checked="true"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:enabled="false"
+        android:linksClickable="false"
+        android:longClickable="false"
+        android:text="@string/is_running"
+        android:visibility="invisible" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:id="@+id/sessionStatusTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:text="@string/session_status" />
+
+    <RadioButton
+        android:id="@+id/sessionStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="#7C7C7C"
+        android:checked="true"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:linksClickable="false"
+        android:longClickable="false"
+        android:text="@string/session"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/flushButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="48dp"
+        android:text="@string/force_upload" />
+</LinearLayout>
