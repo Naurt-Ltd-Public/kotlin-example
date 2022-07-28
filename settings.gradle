@@ -1,2 +1,3 @@
 rootProject.name = "com.kotlin_example"
-include ':demo'
+include ':default_service'
+include ':default_standalone'
